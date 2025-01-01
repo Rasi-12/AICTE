@@ -1,0 +1,1 @@
+This project is related to prediction of disease outbreaks using machine learning approach. It will be able to predict whether the person has disease or not by getting details from them and by verifying it with the cleaned dataset.
