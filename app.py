@@ -10,9 +10,9 @@ st.set_page_config(page_title="Prediction of Disease Outbreaks", layout="wide", 
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Loading the saved models
-diabetes_model = pickle.load(open(f"{C:\Users\gokularamanan\OneDrive\Documents\Desktop\PROJECT FOLDERS\Multiple Disease Prediction}/saved_models/diabetes_model.sav", "rb"))
-heart_disease_model = pickle.load(open(f"{C:\Users\gokularamanan\OneDrive\Documents\Desktop\PROJECT FOLDERS\Multiple Disease Prediction}/saved_models/heart_disease_model.sav", "rb"))
-parkinsons_model = pickle.load(open(f"{C:\Users\gokularamanan\OneDrive\Documents\Desktop\PROJECT FOLDERS\Multiple Disease Prediction}/saved_models/parkinsons_model.sav", "rb"))
+diabetes_model = pickle.load(open("C:/Users/gokularamanan/OneDrive/Documents/Desktop/PROJECT FOLDERS/Multiple Disease Prediction/saved_models/diabetes_model.sav", "rb"))
+heart_disease_model = pickle.load(open("C:/Users/gokularamanan/OneDrive/Documents/Desktop/PROJECT FOLDERS/Multiple Disease Prediction/saved_models/heart_disease_model.sav", "rb"))
+parkinsons_model = pickle.load(open("C:/Users/gokularamanan/OneDrive/Documents/Desktop/PROJECT FOLDERS/Multiple Disease Prediction/saved_models/parkinsons_model.sav", "rb"))
 
 # Sidebar for navigation
 with st.sidebar:
