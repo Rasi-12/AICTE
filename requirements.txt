@@ -1,0 +1,19 @@
+The project focuses on assessing and enhancing models that predict diseases using input data. Here are the main requirements :
+
+1. Jupyter Notebook :
+   - The `.ipynb` file should illustrate the complete workflow, covering model evaluation, optimization, and results.
+   - It must feature clear and descriptive outputs, including metrics (accuracy, precision, recall) and visualizations to showcase the model's performance.
+   - Comments and markdown cells are necessary for better readability and explanation.
+
+2. Python Script :
+   - The `.py` file should encapsulate all essential parts of the project code in a standalone format.
+   - This file is crucial for users who prefer executing the code outside the notebook environment.
+
+
+
+Features of the Submitted Project:
+
+1. The project files exhibit a well-defined structure for evaluating machine learning models.
+2. The inclusion of both `.ipynb` and `.py` formats offers flexibility for review and execution.
+3. The notebook likely contains intermediate outputs and visualizations that are vital for comprehending the project flow.
+4. The script file guarantees reproducibility and portability.
